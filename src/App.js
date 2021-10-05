@@ -8,7 +8,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">HOLA MUNDO xs</h1>
+          <h1 className="App-title">HOLA MUNDO XD</h1>
         </header>
         <p className="App-intro">
           Welcome to this Docker Meetup with Jenkins
