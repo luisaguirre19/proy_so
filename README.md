@@ -1,4 +1,4 @@
-# React JS Resume Web App Template      
+# Proyecto modificado para el proyecto de sistemas operativos     
 ![ReactJS Resume Website Template](resume-screenshot.jpg?raw=true "ReactJS Resume Website Template")
 ### <a href="https://react-resume-template.herokuapp.com/">LIVE DEMO</a> 
 ### If this template has helped you and you'd like to support my work, feel free to [♥️ Sponsor](https://github.com/sponsors/tbakerx) the project 
