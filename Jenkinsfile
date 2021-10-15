@@ -22,7 +22,7 @@ pipeline {
         stage('Deliver') {
             steps {
                 sh './jenkins/scripts/deliver.sh'
-                input message: 'Finished using the web site? (Click "Proceed" to continue)?'
+                input message: 'El proyecto final de sistemas operativos 2 se cargo correctamente (Presione click en "Proceed" para continuar)?'
                 sh './jenkins/scripts/kill.sh'
             }
         }

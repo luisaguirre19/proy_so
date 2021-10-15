@@ -27,13 +27,13 @@ class Resume extends Component {
 
       <div className="row education">
          <div className="three columns header-col">
-            <h1><span>Education</span></h1>
+            <h1><span>Visión</span></h1>
          </div>
 
          <div className="nine columns main-col">
             <div className="row item">
                <div className="twelve columns">
-                 {education}
+                 Nuestra vision es convertirnos en futuros Ingenieros que puedan sobresalir en el ambito profesion en los entornos con constante cambios.
                </div>
             </div>
          </div>
@@ -43,37 +43,33 @@ class Resume extends Component {
       <div className="row work">
 
          <div className="three columns header-col">
-            <h1><span>Work</span></h1>
+            <h1><span>Mision</span></h1>
          </div>
 
          <div className="nine columns main-col">
-          {work}
+          Entregar nuestros conocimientos para el desarrollo del pais ayudando asi a crear mejores oportunidades de desarrollo mismas que a su vez se traducen en mejores condiciones para el pais.
         </div>
     </div>
 
+    <div className="row work">
 
-
-      <div className="row skill">
-
-         <div className="three columns header-col">
-            <h1><span>Skills</span></h1>
-         </div>
-
-         <div className="nine columns main-col">
-
-            <p>{skillmessage}
-            </p>
-
-				<div className="bars">
-				   <ul className="skills">
-					  {skills}
-					</ul>
-				</div>
-			</div>
+      <div className="three columns header-col">
+        <h1><span>Objetivos</span></h1>
       </div>
+
+      <div className="nine columns main-col">
+      Graduarnos como Ingenieros en Sistemas y con nuestros conocimientos adquiridos poder presentar a Guatemala soluciones tecnologicos que ayuden a ese desarrollo que todos queremos.
+      </div>
+    </div>
+
+      <p className="scrolldown">
+         <a className="smoothscroll" href="#portfolio"><i className="icon-down-circle"></i></a>
+      </p>
    </section>
     );
+    
   }
+  
 }
 
 export default Resume;

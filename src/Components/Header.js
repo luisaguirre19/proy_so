@@ -22,20 +22,20 @@ class Header extends Component {
 	      <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
 
          <ul id="nav" className="nav">
-            <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-            <li><a className="smoothscroll" href="#about">About</a></li>
-	         <li><a className="smoothscroll" href="#resume">Resume</a></li>
-            <li><a className="smoothscroll" href="#portfolio">Works</a></li>
-            <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
-            <li><a className="smoothscroll" href="#contact">Contact</a></li>
+            <li className="current"><a className="smoothscroll" href="#home">Pagina Principal</a></li>
+            {/* <li><a className="smoothscroll" href="#about">Información de productos</a></li> */}
+	         <li><a className="smoothscroll" href="#resume">Valores</a></li>
+            <li><a className="smoothscroll" href="#portfolio">Información de productos</a></li>
+            {/* <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li> */}
+            <li><a className="smoothscroll" href="#contact">Contacto</a></li> 
          </ul>
 
       </nav>
 
       <div className="row banner">
          <div className="banner-text">
-            <h1 className="responsive-headline">I'm {name}.</h1>
-            <h3>I'm a {city} based <span>{occupation}</span>. {description}.</h3>
+            <h1 className="responsive-headline">Proyecto final sistemas operativos 2.</h1>
+            <h3>La finalidad de este proyecto es demostrar los conocimientos adquiridos en el curso de sistemas operativos 2</h3>
             <hr />
             <ul className="social">
                {networks}
@@ -44,7 +44,7 @@ class Header extends Component {
       </div>
 
       <p className="scrolldown">
-         <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
+         <a className="smoothscroll" href="#resume"><i className="icon-down-circle"></i></a>
       </p>
 
    </header>
