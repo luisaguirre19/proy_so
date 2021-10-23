@@ -1,13 +1,12 @@
 # Proyecto modificado para el proyecto de sistemas operativos     
 ![ReactJS Resume Website Template](resume-screenshot.jpg?raw=true "ReactJS Resume Website Template")
-### <a href="https://react-resume-template.herokuapp.com/">LIVE DEMO</a> 
-### If this template has helped you and you'd like to support my work, feel free to [♥️ Sponsor](https://github.com/sponsors/tbakerx) the project 
-### 😁 A much improved V2 is on the way 🎉
+### <a href="https://react-resume-template.herokuapp.com/">Grupo 8</a> 
+### El presente proyecto representa el repositorio del proyecto final de la clase de sistemas operativos.
 
-## Description
-This is a ReactJS based personal resume website template. I have built this by following a Udemy course (credits below) and by beginning with the Ceevee template by Styleshout (credits also below), and breaking up their template into isolated React components. Data is fed directly from a JSON File. This means that in its final form, it can be customized and used by anybody simply by filling in their own personal info into the JSON file and the changes will be dynamically fed into the site. If you would like to use this template for your own personal resume website, read on to learn how to build your own copy.
+## Descripción
+Para la creación y ejecucion del presente proyecto se realizaron pruebas utilizando tencologias como docker, node y jenkins, asi como una plantilla gratuita html.
 
-## Make it Your Own!
+## Como se hizo!
 ### 1. Make sure you have what you need
 To build this website, you will need to have Node >=6 downloaded and installed on your machine. If you don't already have it, you can get it <a href="https://nodejs.org/en/download/">HERE</a>
 ### 2. Build a Create-React-App
