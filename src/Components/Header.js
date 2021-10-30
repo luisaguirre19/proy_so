@@ -35,7 +35,7 @@ class Header extends Component {
       <div className="row banner">
          <div className="banner-text">
             <h1 className="responsive-headline">Proyecto final sistemas operativos 2.</h1>
-            <h3>La finalidad de este proyecto es demostrar los conocimientos adquiridos en el curso de sistemas operativos 2</h3>
+            <h3>La finalidad de este proyecto es demostrar los conocimientos adquiridos en el curso de sistemas operativos 1</h3>
             <hr />
             <ul className="social">
                {networks}
